@@ -22,7 +22,7 @@ class GeocodingController < ApplicationController
 
     #url_data = "https://maps.googleapis.com/maps/api/geocode/xml?address=#{url_safe_street_address}"
 
-    url = "https://maps.googleapis.com/maps/api/geocode/xml?address=" + url_safe_street_address
+    url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + url_safe_street_address
 
 
     require 'open-uri'
